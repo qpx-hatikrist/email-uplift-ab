@@ -1,0 +1,4 @@
+Metadata-Version: 2.4
+Name: email-uplift-ab
+Version: 0.0.1
+Summary: A/B + CUPED + uplift on Hillstrom dataset (clean stack)
