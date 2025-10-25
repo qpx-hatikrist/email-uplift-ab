@@ -1,0 +1,10 @@
+[project]
+name = "email-uplift-ab"
+version = "0.0.1"
+description = "A/B + CUPED + uplift on Hillstrom dataset (clean stack)"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
