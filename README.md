@@ -17,8 +17,8 @@ Python · numpy · pandas · matplotlib · seaborn · scikit-learn
 **Primary goal:** purchases & revenue → `CR_conv` и `ARPU`.
 
 **ΔCR_conv vs Control (pp, 95% CI):**
-- Mens: **+0.68**  \[+0.50; +0.86] — significant  
-- Womens: **+0.31** \[+0.15; +0.47] — significant
+- Mens: **+0.68**  \[+0.500; +0.861] — significant  
+- Womens: **+0.31** \[+0.150; +0.472] — significant
 
 **ΔARPU vs Control (currency, 95% CI):**
 - Mens: **+0.770** \[0.485; 1.054] — significant  
@@ -41,7 +41,8 @@ Python · numpy · pandas · matplotlib · seaborn · scikit-learn
   - ΔARPU — Welch для разницы средних: SE = √(s₁²/n₁ + s₀²/n₀), 95% CI = Δ ± 1.96·SE
 
 ---------------------------------------------------------------------
-
+**"01_eda.ipynb — exploratory scratch (ручные шаги, заметки)."**
+**"02_ab_test.ipynb — воспроизводимый A/B: CR/ARPU + 95% CI (ДОДЕЛАТЬ CUPED)."**
 
 ## ▶️ Reproduce
 ```bash
